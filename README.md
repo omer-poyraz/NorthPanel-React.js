@@ -5,15 +5,15 @@
 Asp.Net Core Web API => [North API](https://github.com/omer-poyraz/NorthAPI)
 
 ## Content
-- #### `Redux`
-- #### `FramerMotion`
-- #### `Router`
-- #### `Axios`
-- #### `Antd Table`
-- #### `Toast`
-- #### `Reactstrap`
-- #### `CSS`
-- #### `Bootstrap`
+- #### `Redux` => [Redux](https://redux.js.org)
+- #### `FramerMotion` => [Framer Motion](https://www.framer.com/?utm_source=motion-readme)
+- #### `Router` => [Router](https://reactrouter.com/en/main)
+- #### `Axios` => [Axios](https://www.npmjs.com/package/axios)
+- #### `Antd Table` => [Antd](https://ant.design/)
+- #### `Toast` => [Toast](https://fkhadra.github.io/react-toastify/introduction/)
+- #### `Reactstrap` [Reactstrap](https://reactstrap.github.io)
+- #### `CSS` => [Css](https://www.w3schools.com/css/)
+- #### `Bootstrap` => [Bootstrap](https://getbootstrap.com/)
 
 ## Pages
 ![image](https://github.com/omer-poyraz/NorthPanel-React.js/assets/56772494/28c5df19-72a1-47b2-b5ae-7d3c54cbe0ff)
