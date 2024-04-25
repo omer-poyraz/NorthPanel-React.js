@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+## Fields
+![image](https://github.com/omer-poyraz/NorthPanel-React.js/assets/56772494/bddd4e69-fd8c-406d-bb4e-38c1b3dc4c63)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Backend
+Asp.Net Core Web API => [North API](https://github.com/omer-poyraz/NorthAPI)
 
-## Available Scripts
+## Content
+- #### `Redux` => [Redux](https://redux.js.org)
+- #### `FramerMotion` => [Framer Motion](https://www.framer.com/?utm_source=motion-readme)
+- #### `Router` => [Router](https://reactrouter.com/en/main)
+- #### `Axios` => [Axios](https://www.npmjs.com/package/axios)
+- #### `Antd Table` => [Antd](https://ant.design/)
+- #### `Toast` => [Toast](https://fkhadra.github.io/react-toastify/introduction/)
+- #### `Reactstrap` [Reactstrap](https://reactstrap.github.io)
+- #### `CSS` => [Css](https://www.w3schools.com/css/)
+- #### `Bootstrap` => [Bootstrap](https://getbootstrap.com/)
 
-In the project directory, you can run:
+## Pages
+![image](https://github.com/omer-poyraz/NorthPanel-React.js/assets/56772494/28c5df19-72a1-47b2-b5ae-7d3c54cbe0ff)
+![image](https://github.com/omer-poyraz/NorthPanel-React.js/assets/56772494/57fdd139-790f-4fa6-a735-412f3c74a056)
+![image](https://github.com/omer-poyraz/NorthPanel-React.js/assets/56772494/4812bb0b-0b60-4fcc-a907-89f17db94292)
+![image](https://github.com/omer-poyraz/NorthPanel-React.js/assets/56772494/bd2de76b-b0da-4dbf-a9b6-e8e1dfa957b0)
+![image](https://github.com/omer-poyraz/NorthPanel-React.js/assets/56772494/9895c65e-7408-4c40-91cc-c8b2498566f5)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
