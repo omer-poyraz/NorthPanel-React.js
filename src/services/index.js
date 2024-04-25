@@ -70,3 +70,45 @@ export const CategoryDeleteData = createAsyncThunk("CategoryDeleteData", async (
         .then(res => res.data)
     return result
 })
+
+export const AddressesData = createAsyncThunk("AddressesData", async ({ userId }) => {
+    const result = await axios.get(`${api.AddressGetAll}/${userId}`, { headers: { "Authorization": `Bearer ${token}` } })
+        .then(res => res.data)
+    return result
+})
+
+export const AddressUpdateData = createAsyncThunk("AddressUpdateData", async ({ id, }) => {
+    const result = await axios.put(`${api.AddressUpdate}/${id}`, { headers: { "Authorization": `Bearer ${token}` } })
+        .then(res => res.data)
+    return result
+})
+
+export const AddressDeleteData = createAsyncThunk("AddressDeleteData", async ({ id, userId, addressTitle, addressText, addressCity, addressDistrict }) => {
+    const result = await axios.delete(`${api.AddressDelete}/${id}`, { userId: userId, addressTitle: addressTitle, addressText: addressText, addressCity: addressCity, addressDistrict: addressDistrict }, { headers: { "Authorization": `Bearer ${token}` } })
+        .then(res => res.data)
+    return result
+})
+
+export const BasketsData = createAsyncThunk("BasketsData", async ({ userId }) => {
+    const result = await axios.get(`${api.GetAllBasket}/${userId}`, { headers: { "Authorization": `Bearer ${token}` } })
+        .then(res => res.data)
+    return result
+})
+
+export const BasketData = createAsyncThunk("BasketData", async ({ id }) => {
+    const result = await axios.get(`${api.GetBasket}/${id}`, { headers: { "Authorization": `Bearer ${token}` } })
+        .then(res => res.data)
+    return result
+})
+
+export const BasketUpdateData = createAsyncThunk("BasketUpdateData", async ({ id, userId, productLength, productId }) => {
+    const result = await axios.put(`${api.UpdateBasket}/${id}`, { userId: userId, productLength: productLength, productId: productId, basketId: id }, { headers: { "Authorization": `Bearer ${token}` } })
+        .then(res => res.data)
+    return result
+})
+
+export const BasketDeleteData = createAsyncThunk("BasketDeleteData", async ({ id }) => {
+    const result = await axios.delete(`${api.DeleteBasket}/${id}`, { headers: { "Authorization": `Bearer ${token}` } })
+        .then(res => res.data)
+    return result
+})

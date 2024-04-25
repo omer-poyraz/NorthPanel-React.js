@@ -10,6 +10,10 @@ import userChangePassSlice from "./slices/userChangePassSlice";
 import appInfosSlice from "./slices/appInfosSlice";
 import categoriesSlice from "./slices/categoriesSlice";
 import categoryDeleteSlice from "./slices/categoryDeleteSlice";
+import editUserSlice from "./slices/editUserSlice";
+import addressesSlice from "./slices/addressesSlice";
+import addressUpdateSlice from "./slices/addressUpdateSlice";
+import basketsSlice from "./slices/basketsSlice";
 
 export const Store = configureStore({
     reducer: {
@@ -23,6 +27,10 @@ export const Store = configureStore({
         userChangePass: userChangePassSlice,
         appInfos: appInfosSlice,
         categories: categoriesSlice,
-        categoryDelete: categoryDeleteSlice
+        categoryDelete: categoryDeleteSlice,
+        editUser: editUserSlice,
+        addresses: addressesSlice,
+        addressUpdate: addressUpdateSlice,
+        baskets: basketsSlice,
     }
 });

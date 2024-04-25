@@ -16,7 +16,7 @@ const Content = () => {
         <div>
             <Card className='header'>
                 <div className='d-flex justify-content-between'>
-                    <div><h4 className='ml-4 mt-1'>{directionText[selector.route.id]}</h4></div>
+                    <div><h4 className='ml-4 mt-1'>{selector.route.id === 10 ? `${selector.editUser.user.firstName} ${selector.editUser.user.lastName}` : directionText[selector.route.id]}</h4></div>
                     <div className='profile' onClick={() => setModal(!modal)}>
                         <CiUser size={24} />
                         <Label className='mt-2'>Ömer Poyraz</Label>

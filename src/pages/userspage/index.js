@@ -4,7 +4,9 @@ import { UserDeleteData, UsersData, UserUpdateData } from '../../services'
 import { Table } from 'antd'
 import { Button, Col, Form, FormGroup, Input, Label, Modal, ModalBody, ModalHeader, Row } from 'reactstrap'
 import { useForm } from 'react-hook-form'
-import { CiEdit, CiTrash } from 'react-icons/ci'
+import { CiEdit, CiGrid41, CiTrash } from 'react-icons/ci'
+import { changePage } from '../../redux/slices/routeSlice'
+import { selectUser } from '../../redux/slices/editUserSlice'
 
 const UsersPage = () => {
     const [selectedUser, setSelectedUser] = useState([])
@@ -63,6 +65,7 @@ const UsersPage = () => {
                 return (
                     <>
                         <CiEdit size={24} color="green" onClick={() => { setSelectedUser(user); setModel(!model); }} />
+                        <CiGrid41 size={24} color='teal' className='ml-3' onClick={() => { dispatch(selectUser({ user: user })); dispatch(changePage({ id: 10 })) }} />
                         <CiTrash size={24} color="red" className="ml-3" onClick={() => { setSelectedId(user.userId); setIsDelete(!isDelete); }} />
                     </>
                 )

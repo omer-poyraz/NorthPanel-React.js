@@ -7,6 +7,7 @@ import ProductPage from '../productpage'
 import UsersPage from '../userspage'
 import UserPage from '../userpage'
 import SocialPage from '../socialpage'
+import UserEditPage from '../userspage/edit'
 
 export default [
     <Dashboard />,
@@ -17,5 +18,7 @@ export default [
     <ProductPage />,
     <UsersPage />,
     <UserPage />,
-    <SocialPage />
+    <SocialPage />,
+    null,
+    <UserEditPage />
 ]

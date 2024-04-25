@@ -9,6 +9,8 @@ export default {
     ChangePass: `${_baseUrl}/User/ChangePassword`,
     AddressGetAll: `${_baseUrl}/Address/GetAll`,
     AddressGet: `${_baseUrl}/Address/Get`,
+    AddressDelete: `${_baseUrl}/Address/Delete`,
+    AddressUpdate: `${_baseUrl}/Address/Update`,
     GetAllInfo: `${_baseUrl}/AppInfo/GetAll`,
     GetInfo: `${_baseUrl}/AppInfo/Get`,
     UpdateInfo: `${_baseUrl}/AppInfo/Update`,
@@ -18,4 +20,9 @@ export default {
     CreateCategory: `${_baseUrl}/Category/Create`,
     UpdateCategory: `${_baseUrl}/Category/Update`,
     DeleteCategory: `${_baseUrl}/Category/Delete`,
+    GetAllBasket: `${_baseUrl}/Basket/GetAll`,
+    GetBasket: `${_baseUrl}/Basket/Get`,
+    CreateBasket: `${_baseUrl}/Basket/Create`,
+    UpdateBasket: `${_baseUrl}/Basket/Update`,
+    DeleteBasket: `${_baseUrl}/Basket/Delete`,
 }

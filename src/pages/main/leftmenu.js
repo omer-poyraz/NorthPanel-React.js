@@ -22,7 +22,7 @@ const LeftMenu = () => {
                     <div className={id === 3 ? 'shadoww click' : 'shadoww'} onClick={() => dispatch(changePage({ id: 3 }))}><CiYoutube className='ml-2' /><span className='mt-1 ml-2 w-100'>Video Galerisi</span></div>
                     <div className={id === 4 ? 'shadoww click' : 'shadoww'} onClick={() => dispatch(changePage({ id: 4 }))}><CiBoxes className='ml-2' /><span className='mt-1 ml-2 w-100'>Kategori Yönetimi</span></div>
                     <div className={id === 5 ? 'shadoww click' : 'shadoww'} onClick={() => dispatch(changePage({ id: 5 }))}><CiGrid32 className='ml-2' /><span className='mt-1 ml-2 w-100'>Ürün Yönetimi</span></div>
-                    <div className={id === 6 ? 'shadoww click' : 'shadoww'} onClick={() => dispatch(changePage({ id: 6 }))}><CiUser className='ml-2' /><span className='mt-1 ml-2 w-100'>Kullanıcı Yönetimi</span></div>
+                    <div className={id === 6 || id === 10 ? 'shadoww click' : 'shadoww'} onClick={() => dispatch(changePage({ id: 6 }))}><CiUser className='ml-2' /><span className='mt-1 ml-2 w-100'>Kullanıcı Yönetimi</span></div>
                 </Container>
                 <Label className='mt-5 text-secondary'>Genel Ayarlar</Label>
                 <Container className='px-0'>
