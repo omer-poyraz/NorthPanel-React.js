@@ -1,0 +1,21 @@
+const _baseUrl = "http://192.168.1.5:5260/api";
+export default {
+    Login: `${_baseUrl}/Authentication/Login`,
+    Register: `${_baseUrl}/Authentication/Register`,
+    GelAllUser: `${_baseUrl}/User/GetAll`,
+    GetUser: `${_baseUrl}/User/Get`,
+    UpdateUser: `${_baseUrl}/User/Update`,
+    DeleteUser: `${_baseUrl}/User/Delete`,
+    ChangePass: `${_baseUrl}/User/ChangePassword`,
+    AddressGetAll: `${_baseUrl}/Address/GetAll`,
+    AddressGet: `${_baseUrl}/Address/Get`,
+    GetAllInfo: `${_baseUrl}/AppInfo/GetAll`,
+    GetInfo: `${_baseUrl}/AppInfo/Get`,
+    UpdateInfo: `${_baseUrl}/AppInfo/Update`,
+    DeleteInfo: `${_baseUrl}/AppInfo/Delete`,
+    GetAllCategory: `${_baseUrl}/Category/GetAll`,
+    GetCategory: `${_baseUrl}/Category/Get`,
+    CreateCategory: `${_baseUrl}/Category/Create`,
+    UpdateCategory: `${_baseUrl}/Category/Update`,
+    DeleteCategory: `${_baseUrl}/Category/Delete`,
+}
