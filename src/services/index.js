@@ -71,6 +71,12 @@ export const CategoryDeleteData = createAsyncThunk("CategoryDeleteData", async (
     return result
 })
 
+export const CategoryUpdateData = createAsyncThunk("CategoryUpdateData", async ({ id }) => {
+    const result = await axios.put(`${api.UpdateCategory}/${id}`, { headers: { "Authorization": `Bearer ${token}` } })
+        .then(res => res.data)
+    return result
+})
+
 export const AddressesData = createAsyncThunk("AddressesData", async ({ userId }) => {
     const result = await axios.get(`${api.AddressGetAll}/${userId}`, { headers: { "Authorization": `Bearer ${token}` } })
         .then(res => res.data)

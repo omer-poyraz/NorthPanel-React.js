@@ -11,6 +11,7 @@ const CategoryPage = () => {
     const selector = useSelector((state) => state.categories.categories)
     const { handleSubmit } = useForm()
     const [selectedId, setSelectedId] = useState(0)
+    const [createModal, setCreateModal] = useState(false)
     const [modal, setModal] = useState(false)
     const [isDelete, setIsDelete] = useState(false)
     const [selectedCat, setSelectedCat] = useState([])
@@ -53,11 +54,15 @@ const CategoryPage = () => {
 
     const onSubmit = (values, e) => {
         console.log(e)
+        
     }
 
     return (
         <Container className='mt-4'>
-            <Card>
+            <Container className='d-flex justify-content-end'>
+                <Button color='success'>Kategori Ekle</Button>
+            </Container>
+            <Card className='mt-4'>
                 <CardHeader tag={'h4'}>Kategoriler</CardHeader>
                 <CardBody>
                     <Table

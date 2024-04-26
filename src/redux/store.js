@@ -14,6 +14,7 @@ import editUserSlice from "./slices/editUserSlice";
 import addressesSlice from "./slices/addressesSlice";
 import addressUpdateSlice from "./slices/addressUpdateSlice";
 import basketsSlice from "./slices/basketsSlice";
+import categoryUpdateSlice from "./slices/categoryUpdateSlice";
 
 export const Store = configureStore({
     reducer: {
@@ -28,6 +29,7 @@ export const Store = configureStore({
         appInfos: appInfosSlice,
         categories: categoriesSlice,
         categoryDelete: categoryDeleteSlice,
+        categoryUpdate: categoryUpdateSlice,
         editUser: editUserSlice,
         addresses: addressesSlice,
         addressUpdate: addressUpdateSlice,
