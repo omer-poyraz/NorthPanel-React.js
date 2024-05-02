@@ -1,9 +1,15 @@
 import axios from "axios"
 import api from "../api/api"
 import { createAsyncThunk } from "@reduxjs/toolkit"
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const id = localStorage.getItem("userId")
-const token = localStorage.getItem("token")
+let id = ""
+let token = ""
+
+async () => {
+    id = await AsyncStorage.getItem("userId")
+    token = AsyncStorage.getItem("token")
+}
 
 export const LoginData = createAsyncThunk("LoginData", async ({ userName, password }) => {
     const result = await axios.post(api.Login, { userName: userName, password: password })
